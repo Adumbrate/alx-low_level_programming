@@ -2,27 +2,20 @@
 
 
 /**
- *
- *  * main - prints Programming is like building a multilingual puzzle
- *
- *   *
- *
- *    * Return: Always 0 (sucess)
- *
- *    **/
-
+ 
+   * main - prints Programming is like building a multilingual puzzle
+   *
+   * Return: Always 0 (sucess)
+   *
+ **/
 
 
 int main(void)
-
 {
 
 		char string[] = "\"Programming is like building a multilingual puzzle";
 
+		puts(string);
 
-			puts(string);
-
-
-				return (0);
-
+		return (0);
 }
