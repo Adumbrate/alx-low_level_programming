@@ -1,19 +1,13 @@
 #include <stdio.h>
 
 
-
-
-
 /**
-
  * main - printing all the letters of the alphabet in lower and capital
 
  *
 
  * Return: Always 0 (sucess)
-
- */
-
+**/
 
 
 int main(void)
