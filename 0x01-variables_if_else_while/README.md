@@ -1,1 +1,1 @@
-if, else, and while in C
+If, else, and while in C
