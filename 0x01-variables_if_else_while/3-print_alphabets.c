@@ -3,9 +3,7 @@
 
 /**
  * main - printing all the letters of the alphabet in lower and capital
-
  *
-
  * Return: Always 0 (sucess)
 **/
 
@@ -16,8 +14,6 @@ int main(void)
 
 	char letter;
 
-
-
 	for (letter = 'a'; letter <= 'z'; letter++)
 
 	{
@@ -27,7 +23,6 @@ int main(void)
 	}
 
 
-
 	for (letter = 'A'; letter <= 'Z'; letter++)
 
 	{
@@ -35,7 +30,6 @@ int main(void)
 		putchar(letter);
 
 	}
-
 
 
 	putchar('\n');
