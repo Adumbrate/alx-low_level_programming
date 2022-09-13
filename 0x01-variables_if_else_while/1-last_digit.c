@@ -4,24 +4,24 @@
 
 
 /**
- * main - printing the last digit of a randomly generated number
- * Desctiption: after getting the last digit, one has to determine
- * whether the number is
- * greater than zero and less than 6 print is less than 6 and not zero
- * greater than 5 print greater than 5
- * is zero print is zero
- * Return: Always 0 (success)
-**/
+  * main - printing the last digit of a randomly generated number
+  * Desctiption: after getting the last digit, one has to determine
+  * whether the number is
+  * greater than zero and less than 6 print is less than 6 and not zero
+  * greater than 5 print greater than 5
+  * is zero print is zero
+  * Return: Always 0 (success)
+ **/
 
 int main(void)
 {
 	int n;
 
 	srand(time(0));
-	n = rand() - RAND_MAX / 2
+	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
 	if ((n % 10) > 5)
-	{
+	{	
 		printf("Last digit of %d is %d and is greater than 5\n", n, n % 10);
 
 	}
