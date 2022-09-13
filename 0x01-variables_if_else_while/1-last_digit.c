@@ -13,7 +13,7 @@
   * is zero print is zero
   *
   * Return: Always 0 (success)
-**/
+*/
 
 int main(void)
 {
