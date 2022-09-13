@@ -5,11 +5,13 @@
 
 /**
   * main - printing the last digit of a randomly generated number
+  *
   * Desctiption: after getting the last digit, one has to determine
   * whether the number is
   * greater than zero and less than 6 print is less than 6 and not zero
   * greater than 5 print greater than 5
   * is zero print is zero
+  *
   * Return: Always 0 (success)
  **/
 
