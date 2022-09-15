@@ -4,7 +4,7 @@
  * main - printing th word _putchar followed by a new line
  *
  * Return: Always 0 (success);
-*/
+**/
 
 int main(void)
 {
