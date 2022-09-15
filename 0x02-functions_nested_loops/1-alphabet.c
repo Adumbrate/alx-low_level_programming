@@ -2,7 +2,7 @@
 
 /**
  * print_alphabet - printing all the lowercase letters of the alphabet
-**/
+*/
 
 
 void print_alphabet(void)
