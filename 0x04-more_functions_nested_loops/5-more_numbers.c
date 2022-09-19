@@ -2,7 +2,7 @@
 
 /**
  * more_numbers - printing numbers 0-14 ten times
- */
+**/
 
 void more_numbers(void)
 {
@@ -17,7 +17,7 @@ void more_numbers(void)
 				_putchar(j / 10 + '0');
 			}
 			_putchar(j % 10 + '0');
-	}
-	}
-	_putchar('\n');
+		}
+		_putchar('\n');
+	)
 }
