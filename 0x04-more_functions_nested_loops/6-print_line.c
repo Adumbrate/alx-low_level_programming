@@ -4,7 +4,7 @@
 /**
  * print_line - print a straight line
  * @n: first parameter
- */
+**/
 
 void print_line(int n)
 {
