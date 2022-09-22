@@ -1,20 +1,11 @@
 #include "main.h"
 
-
-
 /**
-
  * leet - print an encoded text
-
  * @s: main parameter
-
  *
-
  * Return: encoded string
-
- */
-
-
+**/
 
 char *leet(char *s)
 
