@@ -8,7 +8,6 @@
  * Return: the squareroot
 **/
 
-
 int is_square_root(int i, int j)
 {
 	if (j * j > i)
