@@ -9,27 +9,16 @@
 **/
 
 int is_prime(int i, int j)
-
 {
-
 	if (j == 1)
-
 	{
-
 		return (1);
-
 	}
-
 	if (i % j == 0)
-
 	{
-
 		return (0);
-
 	}
-
 	return (is_prime(i, j - 1));
-
 }
 
 
