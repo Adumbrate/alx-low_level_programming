@@ -24,31 +24,17 @@ int is_prime(int i, int j)
 
 
 /**
-
  * is_prime_number - returns 1 if primenumber else return 0
-
  * @n: the input integer
-
  *
-
  * Return: 1 or 0
-
- */
-
-
+**/
 
 int is_prime_number(int n)
-
 {
-
 	if (n < 3)
-
 	{
-
 		return (0);
-
 	}
-
 	return (is_prime(n, n - 1));
-
 }
