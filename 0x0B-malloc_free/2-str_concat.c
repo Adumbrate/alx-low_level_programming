@@ -10,7 +10,7 @@
  * Return: concatenated strings
 **/
 
-char *str_concat(char *s1, char *s2)
+char *stir_concat(char *s1, char *s2)
 {
 	char *new_string, *new_s1, *new_s2;
 	int i = 0, len_s1, len_s2;
