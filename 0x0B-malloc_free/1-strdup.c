@@ -1,45 +1,27 @@
 #include "main.h"
-#include <stdlib.h>
 #include <string.h>
+#include <stdlib.h>
+
 
 /**
- * str_concat - concatenating two strings
- * @s1: the first string
- * @s2: the second string
+ * _strdup - return a pointer to the newly allocated memory
+ * containing a copy of the string
+ * @str: the strint to copy
  *
- * Return: concatenated strings
+ * Return: pointer to copy
 **/
 
-char *str_concat(char *s1, char *s2)
+char *_strdup(char *str)
 
 {
 
-	char *new_string, *new_s1, *new_s2;
+	char *new_string = malloc(sizeof(char) * (strlen(str) + 1));
 
-	int i = 0, len_s1, len_s2;
-
-	new_s1 = s1;
-	new_s2 = s2;
-
-	if (s1 == NULL)
-
-		s1 = "";
-
-	len_s1 = strlen(s1);
-
-	len_s2 = strlen(s2);
+	int i = 0;
 
 
 
-	s1 = new_s1;
-
-	s2 = new_s2;
-
-	new_string = malloc(sizeof(char) * (len_s1 + len_s2 + 1));
-
-	new_s1 = new_string;
-
-	if (new_string == NULL)
+	if (str == 0 || new_string == NULL || str == NULL)
 
 	{
 
@@ -47,34 +29,22 @@ char *str_concat(char *s1, char *s2)
 
 	}
 
-	for (; i < (len_s1 + len_s2); i++)
+	else
 
 	{
 
-		if (i < len_s1)
+		while (str[i] != '\0')
 
 		{
 
-			new_string[i] = *s1;
+			new_string[i] = str[i];
 
-			s1++;
-
-		}
-
-		else
-
-		{
-
-			new_string[i] = *s2;
-
-			s2++;
+			i++;
 
 		}
 
 	}
 
-	new_string[i] = '\0';
-
-	return (new_s1);
+	return (new_string);
 
 }
